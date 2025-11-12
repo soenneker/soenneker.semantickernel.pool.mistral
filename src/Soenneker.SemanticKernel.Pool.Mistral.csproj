@@ -44,7 +44,7 @@
 
         <PackageReference Include="Microsoft.SemanticKernel.Connectors.MistralAI" Version="1.55.0-alpha" />
 
-        <PackageReference Include="Soenneker.SemanticKernel.Pool" Version="4.0.145" />
+        <PackageReference Include="Soenneker.SemanticKernel.Pool" Version="4.0.147" />
         <PackageReference Include="Soenneker.Utils.HttpClientCache" Version="4.0.1764" />
     </ItemGroup>
 </Project>
