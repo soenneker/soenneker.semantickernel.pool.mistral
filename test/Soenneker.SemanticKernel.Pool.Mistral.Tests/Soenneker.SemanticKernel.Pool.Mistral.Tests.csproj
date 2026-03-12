@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.SemanticKernel.Pool.Mistral.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.SemanticKernel.Pool.Mistral\Soenneker.SemanticKernel.Pool.Mistral.csproj" />
     </ItemGroup>
 
     <ItemGroup>
