@@ -86,6 +86,6 @@ public static class KernelPoolMistralExtension
         CancellationToken cancellationToken = default)
     {
         await pool.Remove(poolId, key, cancellationToken).NoSync();
-        await httpClientCache.Remove($"mistral:{poolId}:{key}", cancellationToken).NoSync();
+        await httpClientCache.Remove($"mistral:{poolId}:{key}").NoSync();
     }
 }
