@@ -1,18 +1,17 @@
-﻿using Soenneker.Tests.FixturedUnit;
-using Xunit;
+using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.SemanticKernel.Pool.Mistral.Tests;
 
-[Collection("Collection")]
-public sealed class KernelPoolMistralExtensionTests : FixturedUnitTest
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
+public sealed class KernelPoolMistralExtensionTests : HostedUnitTest
 {
 
-    public KernelPoolMistralExtensionTests(Fixture fixture, ITestOutputHelper output) : base(fixture, output)
+    public KernelPoolMistralExtensionTests(Host host) : base(host)
     {
 
     }
 
-    [Fact]
+    [Test]
     public void Default()
     {
 
